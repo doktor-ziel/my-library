@@ -13,6 +13,6 @@ public class GeniusLibraryTest {
 		double area = GeniusLibrary.calculateAreaOfCircle(4.0);
 		
 		// then
-		assertEquals(50.2655, area);
+		assertEquals(50.2655, area, 0.001);
     }
 }
